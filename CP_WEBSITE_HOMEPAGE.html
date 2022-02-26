@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ComPROGRAMMING</title>
+	<link rel="stylesheet" type="text/css" href="homapage_Stylling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+	<nav>
+		<div class="logo">
+    <a href="https://shivajiraojondhalecoe.org.in/"> <img src="college.jpg"></a>
+   </div>
+   
+		<div class="menu">
+			<a href="CP_WEBSITE_HOMEPAGE.html">HOME</a>
+			<a href="programs.html">PROGRAMS</a>
+			<a href="algorithm.html">BLOCK DIAGRAM</a>
+			<a href="About US.html">ABOUT US</a>
+			<a href="contactus.html">CONTACT US</a>
+		</div>
+    </nav> 
+    
+       <div class="slideshow-container">
+
+  
+       <div class="mySlides fade">
+       <div class="numbertext">1 / 4</div>
+       <img src="1.png" style="width:100%">
+       <div class="text"> “Code is like humor. When you have to explain it, it’s bad.”</div>
+       </div>
+
+       <div class="mySlides fade">
+       <div class="numbertext">2 / 4</div>
+       <img src="2.png" style="width:100%">
+       <div class="text">“Java is to JavaScript what car is to Carpet.”</div>
+       </div>
+
+       <div class="mySlides fade">
+       <div class="numbertext">3 / 4</div>
+       <img src="3.png" style="width:100%" >
+       <div class="text">“Ruby is rubbish! PHP is phpantastic!”</div>
+       </div>
+
+       <div class="mySlides fade">
+       <div class="numbertext">4 / 4</div>
+       <img src="4.png" style="width:100%">
+       <div class="text">“Fix the cause, not the symptom.” </div>
+       </div> 
+
+       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+       </div>
+
+        <br>
+
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+   </div>
+   </div>
+
+<script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+      showSlides(slideIndex += n);
+     }
+
+      function currentSlide(n) {
+      showSlides(slideIndex = n);
+     }
+
+      function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+     }
+        for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+     }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+     } 
+</script>
+    
+    <div class="header">
+       <marquee behavior="scroll" direction="leftcolumn">
+       <h2><u>WELCOME TO OUR WEBSITE</u></h2>
+       </marquee>
+    </div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card1">
+      <h2>INTRODUCTION TO PROGRAMMING</h2>
+      <div class="post1">
+      <div class="fakeimg1" style="">
+        <img src="intro2.jpg">
+      </div>
+      <p>A language that is acceptable to a computer system is called a computer language or programming language and the process of creating a sequence of instructions in such a language is called programming or coding. A program is a set of instructions, written to perform a specific task by the computer. A set of large program is called software. To develop software, one must have knowledge of a programming language. Before moving on to any programming language, it is important to know about the various types of languages used by the computer. Let us first know what the basic requirements of the programmers were & what difficulties they faced while programming in that language.  </p>
+    </div>
+  </div>
+    <div class="card2">
+      <h2>MODERN PROGRAMMING</h2>
+      <div class="post2">
+      
+      <p>1995 was a particularly interesting year in the computer programming world. It is in this year that four new programming languages were released that would go on to influence the global programming community in ways that were not anticipated at the time of their official announcements. Incidentally, this was also the time that the web was just beginning to make waves and the Internet was on the verge of exploding into the mainstream digital culture.The four languages that made their debut in 1995 were Java, JavaScript, PHP and Ruby. Although there wasn’t any much fanfare accompanying their respective releases, these languages would eventually grow to become ubiquitous programming tools to most software developers. Up until that time, C and C++ were the dominant languages. Despite the fact that these two were very powerful, they were not inherently suited for the world-wide web. In addition they were often considered to be a little complicated and intimidating to novice programmers (especially C++).Among the four, Java proved to be a runaway success. With its oft quoted slogan of “Write Once, Run Anywhere”, Java became an instant hit as it was much easier to learn and master (compared to C++). Java also introduced the novel idea of a Virtual Machine (JVM), that made it possible to write programs that would be run on different platforms without the need for recompilations.In recent years, JavaScript has displaced Java as the top programming language in the world. The steady rise of JavaScript has largely been attributed to the introduction of Node.js, a technology that has made it possible for JavaScript to be run on the server-side.
+</p>
+      <div class="fakeimg1" style="">
+        <img src="programing languages.jpg">
+        <p>PHP became a dominant force in the Web Programming sphere, especially in combination with other popular open-source technologies like Linux, Apache and MySQL. Together, they formed what has commonly been referred to as the LAMP stack.Ruby rose to fame among web developers after the release of the insanely popular Ruby on Rails web framework in 2005 by the Danish programmer David Heinemeier Hansson (DHH).</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+  
+      <div class="fakeimg" style="">
+         <a href="https://old.mu.ac.in/student-section/"><img src="mumbai university.jfif">
+        </a>
+      </div>
+      <div class="scrolling">
+      <marquee behavior="scroll" direction="up">
+
+      <p>UPDATE 1<br>
+         UPDATE 2<br>
+         UPDATE 3<br>
+         UPDATE 4<br>
+         UPDATE 5<br>
+         UPDATE 6<br>
+         UPDATE 7<br>
+         UPDATE 8<br></p>
+
+        </marquee> 
+
+      </div>
+
+    </div>
+    <div class="card3">
+      <h2>TAP TO LEARN</h2>
+      <div class="fakeimg">
+        <a href="https://www.w3schools.com/java/default.asp"target="_blank"><img src="java.jpg"></a>
+      </div>
+      <div class="fakeimg">
+        <a href="https://www.w3schools.com/python/default.asp"><img src="python.jpg"></a>
+      </div>  
+      <div class="fakeimg">
+        <a href="https://www.w3schools.com/cs/default.asp"><img src="c.jpg"></a>
+      </div>
+      <div class="fakeimg">
+        <a href="https://www.w3schools.com/sql/default.asp"><img src="sql.jpg"></a>
+      </div>
+      <div class="fakeimg">
+        <a href="https://www.w3schools.com/nodejs/default.asp"><img src="node.jpg"></a>
+      </div>
+      <div class="fakeimg">
+        <a href="https://www.w3schools.com/git/default.asp"><img src="git.jpg"></a>
+      </div>
+      <div class="fakeimg">
+        <a href="https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp"><img src="raspberry.jpg"></a>
+      </div>
+      <div class="fakeimg">
+        <a href="https://www.w3schools.com/cpp/default.asp"><img src="c++.jpg"></a>
+      </div>
+      <div class="fakeimg">
+        <a href="https://www.w3schools.com/php/default.asp"><img src="php.jpg"></a>
+      </div>
+      <div class="fakeimg">
+        <a href="https://www.w3schools.com/asp/default.asp"><img src="asp.jpg"></a>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<footer>
+ <p>&copy;COPYRIGHT @ 2021</p>
+	<div id="social_media">
+		<h6>FOLLOW US ON</h6>
+		<a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+	</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,247 @@
+* {margin: 0;padding: 0;box-sizing:border-box;}
+/* NAVIGATION */
+
+
+nav{
+      height: 150px;
+      background-color:white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .logo{
+      width: 40%;
+      padding-left: 50px;
+    
+    }
+    .menu{
+      width: 60%;
+      display: flex;
+      justify-content: space-around;
+      padding-right:50px;
+      padding-left: 50px;
+    }
+
+    .menu a{
+      text-decoration: none;
+       color:black;
+      font-weight: bold;
+      font-size:20px;
+      position: relative;
+      transition: all 0.5s linear;
+      font-family:serif;
+    }
+
+    .menu a:before{
+      content: "";
+      position: absolute;
+      left: 0;
+      top:100%;
+      width: 0;
+      height: 2.4px;
+      background-color:black;
+      transition: all 0.5s linear;
+
+    }
+    .menu a:hover:before{
+      width: 100%;
+      background-color: #e74c3c;
+    }
+  
+    a:hover{
+      color: #e74c3c;
+    }
+
+    /*FOOTER*/
+    /*footer*/   
+footer p{
+  padding-top: 20px;
+}
+
+.fa {
+  padding: 0px;
+
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  width: 60px; !important;
+  color: black;
+  
+}
+
+.fa:hover {
+  color:white;
+    opacity: 0.7;
+}
+
+#social_media{
+font-size: 30px;
+}
+
+
+
+footer {
+  height: 250px;
+  padding: 15px;
+  background-color:#e74c3c ;
+  text-align: center;
+} 
+
+
+
+
+.contact{
+  position: relative;
+  min-height: 100vh;
+  padding:0px;
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background:url(campus.jpg);
+  background-size: cover;
+
+}
+
+.contact .content{
+   background-color:black;
+  text-align: center;
+  width: 100%;
+  padding: 60px;
+
+}
+
+.contact .content h2{
+  font-size: 40px;
+  font-weight: 500;
+  color:#e74c3c;
+  padding: 10px;
+}
+.contact .content p{
+  font-size: 20px;
+  font-weight: 300;
+  color:#e74c3c;
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+}
+
+.container .contactinfo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .contactinfo .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.container .contactinfo .box .icon{
+  min-width: 60px;
+  height: 60px;
+  background:#e74c3c;
+  display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+font-size: 24px;
+}
+
+.container .contactinfo .box .text{
+  display: flex;
+  margin-left: 20px;
+  font-size:18px;
+  color:#fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container .contactinfo .box .text h3 {
+  font-weight:500;
+  max-width: 100px;
+  color:#e74c3c;
+  background: black;
+  border-radius: 4px;
+  text-align: center;
+  padding:2px;
+  margin-bottom: 10px;
+}
+.container .contactinfo .box .text p{
+color:white;
+}
+.contactform{
+  width: 40%;
+  padding: 40px;
+  background:white;
+  border-radius: 20px;
+}
+
+.contactform h2
+{
+  font-size: 30px;
+  color:#333;
+  font-weight: 500;
+}
+.contactform .inputbox{
+  position:relative;
+width: 100%;
+margin-top: 10px;
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea
+{
+  width: 100%;
+  padding: 5px 0;
+  font-size:16px;
+  margin:10px 0;
+  border:none;
+  border-bottom: 2px solid #fff;
+  outline:none;
+  resize: none;
+
+}
+
+.contactform .inputbox span
+{
+  position: absolute;
+  left: 0;
+   padding: 5px 0;
+  font-size:16px;
+  margin:10px 0;
+  pointer-events: none;
+  transition: 0.4s;
+  color:#666;
+
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span
+{
+color:#e91e63;
+font-size: 12px;
+transform: translateY(-20px);
+
+}
+
+.contactform .inputbox input[type="submit"]
+{
+  width: 100px;
+  background:#00bcd4;
+  color:#fff;
+  border:none;
+  cursor: pointer;
+  padding: 10px;
+  font-size:18px; 
+}
